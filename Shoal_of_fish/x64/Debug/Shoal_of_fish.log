@@ -1,0 +1,17 @@
+﻿  Compiling CUDA source file fish.cu...
+  
+  C:\Users\user\source\repos\Shoal_of_fish\Shoal_of_fish>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\fish.cu.obj "C:\Users\user\source\repos\Shoal_of_fish\Shoal_of_fish\fish.cu" 
+  fish.cu
+C:/Users/user/source/repos/Shoal_of_fish/Shoal_of_fish/fish.cu(93): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/user/source/repos/Shoal_of_fish/Shoal_of_fish/fish.cu(94): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/user/source/repos/Shoal_of_fish/Shoal_of_fish/fish.cu(148): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/user/source/repos/Shoal_of_fish/Shoal_of_fish/fish.cu(150): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/user/source/repos/Shoal_of_fish/Shoal_of_fish/fish.cu(153): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:/Users/user/source/repos/Shoal_of_fish/Shoal_of_fish/fish.cu(153): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:/Users/user/source/repos/Shoal_of_fish/Shoal_of_fish/fish.cu(155): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:/Users/user/source/repos/Shoal_of_fish/Shoal_of_fish/fish.cu(549): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     Creating library C:\Users\user\source\repos\Shoal_of_fish\x64\Debug\Shoal_of_fish.lib and object C:\Users\user\source\repos\Shoal_of_fish\x64\Debug\Shoal_of_fish.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\user\source\repos\Shoal_of_fish\x64\Debug\vc120.pdb'; linking object as if no debug info
+  Shoal_of_fish.vcxproj -> C:\Users\user\source\repos\Shoal_of_fish\x64\Debug\Shoal_of_fish.exe
