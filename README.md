@@ -1,4 +1,4 @@
-# CUDA-Boids-Project1
+# CUDA-Boids-Project-1
 Graphic Processors in Computational Applications Project 1 "Shoal of Fish Animation"
 
 To run this project several requirements have to be met:
